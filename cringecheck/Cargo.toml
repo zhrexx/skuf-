@@ -1,0 +1,10 @@
+[package]
+name = "cringecheck"
+version = "0.1.0"
+edition = "2021"
+description = "A cringe-yet-interesting CLI tool that rates the cringe level of any text"
+authors = ["skuf-"]
+
+[[bin]]
+name = "cringecheck"
+path = "src/main.rs"
